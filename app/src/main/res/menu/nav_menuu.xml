@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+<item
+    android:id="@+id/home_yaarr"
+    android:icon="@drawable/bottom_home"
+    android:title="Home"/>
+
+    <item
+        android:id="@+id/leaders_here"
+        android:icon="@drawable/ic_baseline_leaderboard_24"
+        android:title="Leader Board"/>
+
+    <item
+        android:id="@+id/profile_yaar"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/withdraw_yaar"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:title="WithDraw"/>
+
+    </group>
+
+    <item
+        android:title= "Let's Become Friend" >
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/telegram_yaar"
+                android:icon="@drawable/ic_baseline_contact_phone_24"
+                android:title="My Official Telegram"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/messages_from_me"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Developer LIVE Updates"/>
+
+    <item
+        android:id="@+id/invite_yaar"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:title="Sharing is Caring"/>
+
+
+    <item
+        android:id="@+id/rate_yaar"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="Please Rate App"/>
+
+
+
+    <item
+        android:id="@+id/about_yaar"
+        android:icon="@drawable/ic_baseline_logo_dev_24"
+        android:title="Note from Developer"/>
+
+    <item
+        android:id="@+id/policy_yaar"
+        android:icon="@drawable/ic_baseline_privacy_tip_24"
+        android:title="Privacy Policy"/>
+
+
+
+    <item
+        android:id="@+id/logout_yaar"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="LogOut"/>
+
+    </group>
+
+
+</menu>

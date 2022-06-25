@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activity.AboutUs">
+
+
+    <ImageView
+        android:id="@+id/tanbruhim1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dpimg"
+        android:paddingRight="36dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/vue"/>
+
+
+
+    <View
+        android:id="@+id/vue"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintTop_toBottomOf="@id/tanbruhim1"
+        android:background="@color/hint"/>
+
+    <TextView
+        android:id="@+id/tannm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanmay Agarwal"
+        android:textColor="#C8FFEF"
+        android:textSize="22sp"
+        android:fontFamily="@font/bold"
+        android:paddingRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="18dp"
+        app:layout_constraintLeft_toRightOf="@id/tanbruhim1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/proo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dp"
+       android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="3dp"
+        android:background="@drawable/selected_option_shape_primary"
+        android:text="Founder of\nUnwiringTech &amp; \nsub-brands and a \nAndroid Developer"
+        android:textColor="#EEF18C"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="18dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/regular"
+        app:layout_constraintLeft_toRightOf="@id/tanbruhim1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="65dp"/>
+
+    <TextView
+        android:id="@+id/mainu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selected_option_shape_primary"
+        app:layout_constraintTop_toBottomOf="@id/vue"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="#ECE9E5"
+        android:padding="11dp"
+        android:textSize="27sp"
+        android:layout_marginRight="6dp"
+        android:text="@string/talksss"/>
+
+    <TextView
+        android:id="@+id/credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mainu"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="6dp"
+        android:textColor="#000000"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"
+        android:layout_marginRight="6dp"
+        android:text="Image Resources used in this app Credits :- Freepik ,flaticon and \n other resources are used from Apache license means Android Studio resources \n\n animations credits - LotteFiles "/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

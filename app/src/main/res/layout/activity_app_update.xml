@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/startUpdateBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.AppUpdateActivity">
+
+    <TextView
+        android:id="@+id/txt123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="7dp"
+        android:padding="10dp"
+        android:text="Urgent Update of Suneo App is out now, please update your app so as to prevent all security bugs , so we request you to update app as without updating you will be not able to use the Suneo App, its all about our users Security thatswhy kindly click on this start update button to update your app. \n - Thank-you"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn123"
+        android:textColor="@color/red" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Update"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt123" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

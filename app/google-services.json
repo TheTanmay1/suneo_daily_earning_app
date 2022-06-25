@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "377194097506",
+    "project_id": "unwiring-earning-app",
+    "storage_bucket": "unwiring-earning-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377194097506:android:92ab213713c8ac9ab3da3b",
+        "android_client_info": {
+          "package_name": "com.unwiringapps.adminearningnapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377194097506-8hvct5tmpsc5aqhbs343d4glkje9jps0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unwiringapps.adminearningnapp",
+            "certificate_hash": "12f065d91de8bd058bcbb3651081ec4af01d1df8"
+          }
+        },
+        {
+          "client_id": "377194097506-vo08t7fog9rapj0lmh570ve9ubg2hkl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unwiringapps.adminearningnapp",
+            "certificate_hash": "99d558ed7d1b1f792534d2e6014afd2578d0c9be"
+          }
+        },
+        {
+          "client_id": "377194097506-ue5i5re0195trl6rt6rg9sce1hkdp9qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQjfgZy3GMBOtYFYwL8Nk6ZtLte9QFuYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377194097506-ue5i5re0195trl6rt6rg9sce1hkdp9qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377194097506:android:615dff1e98c0c310b3da3b",
+        "android_client_info": {
+          "package_name": "com.unwiringapps.earningnapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377194097506-0o8ujr1jih21bjnvaf9rjilok91q1l13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unwiringapps.earningnapp",
+            "certificate_hash": "99d558ed7d1b1f792534d2e6014afd2578d0c9be"
+          }
+        },
+        {
+          "client_id": "377194097506-ept6unf8ao9evvii4lntenarsfnco3t2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unwiringapps.earningnapp",
+            "certificate_hash": "12f065d91de8bd058bcbb3651081ec4af01d1df8"
+          }
+        },
+        {
+          "client_id": "377194097506-ue5i5re0195trl6rt6rg9sce1hkdp9qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQjfgZy3GMBOtYFYwL8Nk6ZtLte9QFuYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377194097506-ue5i5re0195trl6rt6rg9sce1hkdp9qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

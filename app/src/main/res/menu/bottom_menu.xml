@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/bottom_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/rankFragment"
+        android:icon="@drawable/bottom_rank"
+        android:title="Rank" />
+    <item
+        android:id="@+id/inviteFragment"
+        android:icon="@drawable/bottom_invite"
+        android:title="InviteEarn" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/bottom_profile"
+        android:title="Profile" />
+
+
+</menu>
